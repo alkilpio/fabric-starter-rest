@@ -170,6 +170,7 @@ class FabricStarterClient {
             channelReq.config = config_update;
             channelReq.signatures = [await this.client.signChannelConfig(config_update)];
             // let res = await this.client.createChannel(channelReq);
+            //TODO: make this with SDK (on RAFT deployment)
             fabricCLI.createChannelByCli(channelId);
             // if (!res || res.status != "SUCCESS") {
                 // logger.error(res);
