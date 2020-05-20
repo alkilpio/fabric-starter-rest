@@ -1,6 +1,6 @@
 ARG DOCKER_REGISTRY
 ARG FABRIC_STARTER_VERSION
-FROM ${DOCKER_REGISTRY:-docker.io}/olegabu/fabric-tools-extended:${FABRIC_STARTER_VERSION:-latest}
+FROM ${DOCKER_REGISTRY:-docker.io}/kilpio/fabric-tools-extended:${FABRIC_STARTER_VERSION:-latest}
 
 MAINTAINER olegabu
 
